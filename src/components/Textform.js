@@ -5,8 +5,8 @@ export default function Textform(props) {
     const handleUPclick=()=>{
         settext("Upper case triggered");
     }
-    const handleonchange=()=>{
-
+    const handleonchange=(event)=>{
+        settext(event.target.value);
     }
     const [text,settext]=useState("Enter the text");
     // text="Text"//wrong
