@@ -8,13 +8,13 @@ export default function About(props) {
     const togglestyle =()=>{
         if(mystyle.backgroundColor=='white'){
             setmystyle({
-                backgroundColor:'black'
+                backgroundColor:'black',
             });
             setbtntext('Enable white Mode')
         }
         else{
             setmystyle({
-                backgroundColor:'white'
+                backgroundColor:'white',
             });
             setbtntext('Enable dark Mode')
         }

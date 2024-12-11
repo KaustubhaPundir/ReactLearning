@@ -10,9 +10,15 @@ function App() {
   const togglemode=()=>{
     if(mode==='dark'){
       setmode('light');
+      document.body.style.backgroundColor="black";
+      document.title="TextUtils-Light"
+      
+
     }
     else{
       setmode('dark');
+      document.body.style.backgroundColor="white";
+      document.title="TextUtils-Dark"
     }
   }
   return (
